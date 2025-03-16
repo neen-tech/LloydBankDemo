@@ -1,0 +1,9 @@
+use_frameworks!
+
+platform :ios, '15.6'
+target 'LloydBakingTest' do
+  #pod 'SwiftLint'
+  #pod 'Kingfisher'
+  #pod 'Nuke'
+
+end

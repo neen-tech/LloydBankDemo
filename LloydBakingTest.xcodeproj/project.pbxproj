@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC3F7F4F285213E1D5E9836E /* Pods_LloydBakingTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDD4AF7C19A8D5590E1D614 /* Pods_LloydBakingTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		944B59892D6F04CC0035C3F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 944B596A2D6F04C80035C3F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 944B59712D6F04C80035C3F7;
+			remoteInfo = LloydBakingTest;
+		};
+		944B59932D6F04CC0035C3F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 944B596A2D6F04C80035C3F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 944B59712D6F04C80035C3F7;
+			remoteInfo = LloydBakingTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FDD4AF7C19A8D5590E1D614 /* Pods_LloydBakingTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LloydBakingTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6315850CEF981D58965302 /* Pods-LloydBakingTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LloydBakingTest.release.xcconfig"; path = "Target Support Files/Pods-LloydBakingTest/Pods-LloydBakingTest.release.xcconfig"; sourceTree = "<group>"; };
+		944B59722D6F04C80035C3F7 /* LloydBakingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LloydBakingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		944B59882D6F04CC0035C3F7 /* LloydBakingTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LloydBakingTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		944B59922D6F04CC0035C3F7 /* LloydBakingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LloydBakingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A608572D706636007CE2EA /* LloydBakingTest.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = LloydBakingTest.xctestplan; sourceTree = "<group>"; };
+		EECDCCBDDFBC5C8A9A6F3470 /* Pods-LloydBakingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LloydBakingTest.debug.xcconfig"; path = "Target Support Files/Pods-LloydBakingTest/Pods-LloydBakingTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		944B599A2D6F04CC0035C3F7 /* Exceptions for "LloydBakingTest" folder in "LloydBakingTest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 944B59712D6F04C80035C3F7 /* LloydBakingTest */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		944B59742D6F04C80035C3F7 /* LloydBakingTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				944B599A2D6F04CC0035C3F7 /* Exceptions for "LloydBakingTest" folder in "LloydBakingTest" target */,
+			);
+			path = LloydBakingTest;
+			sourceTree = "<group>";
+		};
+		944B598B2D6F04CC0035C3F7 /* LloydBakingTestTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LloydBakingTestTests;
+			sourceTree = "<group>";
+		};
+		944B59952D6F04CC0035C3F7 /* LloydBakingTestUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LloydBakingTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		944B596F2D6F04C80035C3F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3F7F4F285213E1D5E9836E /* Pods_LloydBakingTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944B59852D6F04CC0035C3F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944B598F2D6F04CC0035C3F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		168F72DA08BBFF4017F41689 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EECDCCBDDFBC5C8A9A6F3470 /* Pods-LloydBakingTest.debug.xcconfig */,
+				3F6315850CEF981D58965302 /* Pods-LloydBakingTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		64F816D9CDF5E8D6E3983BB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FDD4AF7C19A8D5590E1D614 /* Pods_LloydBakingTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		944B59692D6F04C80035C3F7 = {
+			isa = PBXGroup;
+			children = (
+				94A608572D706636007CE2EA /* LloydBakingTest.xctestplan */,
+				944B59742D6F04C80035C3F7 /* LloydBakingTest */,
+				944B598B2D6F04CC0035C3F7 /* LloydBakingTestTests */,
+				944B59952D6F04CC0035C3F7 /* LloydBakingTestUITests */,
+				944B59732D6F04C80035C3F7 /* Products */,
+				168F72DA08BBFF4017F41689 /* Pods */,
+				64F816D9CDF5E8D6E3983BB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		944B59732D6F04C80035C3F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				944B59722D6F04C80035C3F7 /* LloydBakingTest.app */,
+				944B59882D6F04CC0035C3F7 /* LloydBakingTestTests.xctest */,
+				944B59922D6F04CC0035C3F7 /* LloydBakingTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		944B59712D6F04C80035C3F7 /* LloydBakingTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944B599B2D6F04CC0035C3F7 /* Build configuration list for PBXNativeTarget "LloydBakingTest" */;
+			buildPhases = (
+				8A71D13E8B5CF344EECDC73B /* [CP] Check Pods Manifest.lock */,
+				944B596E2D6F04C80035C3F7 /* Sources */,
+				944B596F2D6F04C80035C3F7 /* Frameworks */,
+				944B59702D6F04C80035C3F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				944B59742D6F04C80035C3F7 /* LloydBakingTest */,
+			);
+			name = LloydBakingTest;
+			productName = LloydBakingTest;
+			productReference = 944B59722D6F04C80035C3F7 /* LloydBakingTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		944B59872D6F04CC0035C3F7 /* LloydBakingTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944B59A02D6F04CC0035C3F7 /* Build configuration list for PBXNativeTarget "LloydBakingTestTests" */;
+			buildPhases = (
+				944B59842D6F04CC0035C3F7 /* Sources */,
+				944B59852D6F04CC0035C3F7 /* Frameworks */,
+				944B59862D6F04CC0035C3F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				944B598A2D6F04CC0035C3F7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				944B598B2D6F04CC0035C3F7 /* LloydBakingTestTests */,
+			);
+			name = LloydBakingTestTests;
+			productName = LloydBakingTestTests;
+			productReference = 944B59882D6F04CC0035C3F7 /* LloydBakingTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		944B59912D6F04CC0035C3F7 /* LloydBakingTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944B59A32D6F04CC0035C3F7 /* Build configuration list for PBXNativeTarget "LloydBakingTestUITests" */;
+			buildPhases = (
+				944B598E2D6F04CC0035C3F7 /* Sources */,
+				944B598F2D6F04CC0035C3F7 /* Frameworks */,
+				944B59902D6F04CC0035C3F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				944B59942D6F04CC0035C3F7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				944B59952D6F04CC0035C3F7 /* LloydBakingTestUITests */,
+			);
+			name = LloydBakingTestUITests;
+			productName = LloydBakingTestUITests;
+			productReference = 944B59922D6F04CC0035C3F7 /* LloydBakingTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		944B596A2D6F04C80035C3F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					944B59712D6F04C80035C3F7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					944B59872D6F04CC0035C3F7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 944B59712D6F04C80035C3F7;
+					};
+					944B59912D6F04CC0035C3F7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 944B59712D6F04C80035C3F7;
+					};
+				};
+			};
+			buildConfigurationList = 944B596D2D6F04C80035C3F7 /* Build configuration list for PBXProject "LloydBakingTest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 944B59692D6F04C80035C3F7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 944B59732D6F04C80035C3F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				944B59712D6F04C80035C3F7 /* LloydBakingTest */,
+				944B59872D6F04CC0035C3F7 /* LloydBakingTestTests */,
+				944B59912D6F04CC0035C3F7 /* LloydBakingTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		944B59702D6F04C80035C3F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944B59862D6F04CC0035C3F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944B59902D6F04CC0035C3F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A71D13E8B5CF344EECDC73B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LloydBakingTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		944B596E2D6F04C80035C3F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944B59842D6F04CC0035C3F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944B598E2D6F04CC0035C3F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		944B598A2D6F04CC0035C3F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 944B59712D6F04C80035C3F7 /* LloydBakingTest */;
+			targetProxy = 944B59892D6F04CC0035C3F7 /* PBXContainerItemProxy */;
+		};
+		944B59942D6F04CC0035C3F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 944B59712D6F04C80035C3F7 /* LloydBakingTest */;
+			targetProxy = 944B59932D6F04CC0035C3F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		944B599C2D6F04CC0035C3F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EECDCCBDDFBC5C8A9A6F3470 /* Pods-LloydBakingTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46373LZ8Y6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LloydBakingTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.App.LloydBakingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		944B599D2D6F04CC0035C3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F6315850CEF981D58965302 /* Pods-LloydBakingTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46373LZ8Y6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LloydBakingTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.App.LloydBakingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		944B599E2D6F04CC0035C3F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		944B599F2D6F04CC0035C3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		944B59A12D6F04CC0035C3F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46373LZ8Y6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.App.LloydBakingTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LloydBakingTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LloydBakingTest";
+			};
+			name = Debug;
+		};
+		944B59A22D6F04CC0035C3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46373LZ8Y6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.App.LloydBakingTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LloydBakingTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LloydBakingTest";
+			};
+			name = Release;
+		};
+		944B59A42D6F04CC0035C3F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46373LZ8Y6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.App.LloydBakingTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LloydBakingTest;
+			};
+			name = Debug;
+		};
+		944B59A52D6F04CC0035C3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46373LZ8Y6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.App.LloydBakingTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LloydBakingTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		944B596D2D6F04C80035C3F7 /* Build configuration list for PBXProject "LloydBakingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944B599E2D6F04CC0035C3F7 /* Debug */,
+				944B599F2D6F04CC0035C3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		944B599B2D6F04CC0035C3F7 /* Build configuration list for PBXNativeTarget "LloydBakingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944B599C2D6F04CC0035C3F7 /* Debug */,
+				944B599D2D6F04CC0035C3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		944B59A02D6F04CC0035C3F7 /* Build configuration list for PBXNativeTarget "LloydBakingTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944B59A12D6F04CC0035C3F7 /* Debug */,
+				944B59A22D6F04CC0035C3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		944B59A32D6F04CC0035C3F7 /* Build configuration list for PBXNativeTarget "LloydBakingTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944B59A42D6F04CC0035C3F7 /* Debug */,
+				944B59A52D6F04CC0035C3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 944B596A2D6F04C80035C3F7 /* Project object */;
+}

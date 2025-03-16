@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "39598570-544D-4B12-ADBF-000A43AEFB9A",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:LloydBakingTest.xcodeproj",
+      "identifier" : "944B59712D6F04C80035C3F7",
+      "name" : "LloydBakingTest"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:LloydBakingTest.xcodeproj",
+        "identifier" : "944B59872D6F04CC0035C3F7",
+        "name" : "LloydBakingTestTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:LloydBakingTest.xcodeproj",
+        "identifier" : "944B59912D6F04CC0035C3F7",
+        "name" : "LloydBakingTestUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
