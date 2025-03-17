@@ -5,6 +5,7 @@ import Combine
 
 final class ProductsViewModel:ProductsViewModelProtocol {
     var error: String?
+    @Published var internetCheck: Bool = true
     @Published var isCompleted: Bool
     @Published var products: ProductsData = []
     private var cancellables = Set<AnyCancellable>()
@@ -20,20 +21,24 @@ final class ProductsViewModel:ProductsViewModelProtocol {
     
     //MARK: - get all Products
     func getProducts() {
-        productsRepository.getProducts()
-            
-            .sink { [weak self] completion in
-            switch completion {
-            case .failure(let error):
-                self?.error = error.localizedDescription  // Store error message
-            case .finished:
-                self?.isCompleted = true
-                break
+        
+        if NetworkStatus.shared.isConnectedToNetwork() {
+            productsRepository.getProducts()
+                .sink { [weak self] completion in
+                switch completion {
+                case .failure(let error):
+                    self?.error = error.localizedDescription  // Store error message
+                case .finished:
+                    self?.isCompleted = true
+                    break
+                }
             }
+            receiveValue: { products in
+                self.products = products.filter { $0.category.lowercased() == self.categoryName.lowercased() }
+            }
+            .store(in: &cancellables)
+        } else {
+            internetCheck = false
         }
-        receiveValue: { products in
-            self.products = products.filter { $0.category.lowercased() == self.categoryName.lowercased() }
-        }
-        .store(in: &cancellables)
     }
 }

@@ -9,11 +9,13 @@ protocol CategoryViewModelProtocol {
     func getCategory()
     var category: Category { get }
     var isCompleted: Bool { get }
+    var internetCheck: Bool { get }
 }
 
 final class CategoryViewModel: CategoryViewModelProtocol {
     @Published var category = Category()
     var isCompleted: Bool = false
+    @Published var internetCheck: Bool =  true
     var error : String?
     @Published var viewName : String = "Category"
     private var cancellables = Set<AnyCancellable>()
@@ -24,6 +26,10 @@ final class CategoryViewModel: CategoryViewModelProtocol {
     
     //Get Category
     func getCategory() {
+        if !NetworkStatus.shared.isConnectedToNetwork() {
+            internetCheck = false
+            return
+        }
         self.categoryRepositoryProtocol.getCategory()
         .receive(on: DispatchQueue.main)
         .sink(receiveCompletion: { completion in

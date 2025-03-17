@@ -13,6 +13,7 @@ class ProductsVC: UIViewController {
         super.viewDidLoad()
         // Initial UI component setup
         setupUI()
+        checkInterNet()
         // Fetching Data from API
     }
     //MARK: - setup data sources
@@ -32,6 +33,17 @@ class ProductsVC: UIViewController {
             cell.price.text = "$\(product.price)"
             return cell
         }
+    }
+    
+    func checkInterNet() {
+        vm.$internetCheck
+            .receive(on: DispatchQueue.main)
+            .sink { bool in
+                if bool == false {
+                    self.presentSimpleAlert(message: "Internet is not available. please try later!")
+                }
+            }
+            .store(in: &cancellables)
     }
     
     //MARK: - Binding or get products from View Models

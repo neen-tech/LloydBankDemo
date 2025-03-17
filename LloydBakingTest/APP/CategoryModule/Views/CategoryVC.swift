@@ -15,6 +15,7 @@ class CategoryVC: UIViewController {
         categoryVM.getCategory()
         setupBindings()
         setupUI()
+        
     }
     
     func setupUI() {
@@ -24,6 +25,9 @@ class CategoryVC: UIViewController {
             self.title = name
         }
         .store(in: &cancellables)
+        
+        //MARK: - check internet availability
+        checkInterNet()
     }
     
     // MARK: - Setup Data Source
@@ -37,11 +41,22 @@ class CategoryVC: UIViewController {
         }
       
     }
+
+    private func checkInterNet() {
+        categoryVM.$internetCheck
+            .receive(on: DispatchQueue.main)
+            .sink { bool in
+                if bool == false {
+                    self.presentSimpleAlert(message: "Internet is not available. please try later!")
+                }
+            }
+            .store(in: &cancellables)
+    }
     
     // MARK: - Setup Bindings (Fetching from ViewModel)
     private func setupBindings() {
-        AppLoader.shared.startLoading(view: self.view)
-        categoryVM.$category
+            AppLoader.shared.startLoading(view: self.view)
+            categoryVM.$category
             .receive(on: DispatchQueue.main)
             .sink { [weak self] categories in
                 self?.applySnapshot(category: categories)
@@ -78,3 +93,4 @@ extension CategoryVC:UITableViewDelegate {
         tableView.deselectRow(at: indexPath, animated: true)
     }
 }
+
