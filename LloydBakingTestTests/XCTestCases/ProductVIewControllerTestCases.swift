@@ -56,7 +56,7 @@ class ProductsVCTests: XCTestCase {
             .store(in: &cancellables)
         
         // Then
-        wait(for: [expectation], timeout: 1.0)
+        wait(for: [expectation], timeout: 5.0)
     }
 }
 

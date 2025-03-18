@@ -3,6 +3,7 @@ import Combine
 @testable import LloydBakingTest
 
 final class MockCategoryViewModel:CategoryViewModelProtocol {
+    var internetCheck: Bool = false
     @Published var category = Category()
     var isCompleted: Bool = false
     @Published var error : String?
