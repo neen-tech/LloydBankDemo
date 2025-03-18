@@ -1,5 +1,6 @@
 import UIKit
 import Combine
+import SDWebImage
 
 class ProductsVC: UIViewController {
     
@@ -25,10 +26,9 @@ class ProductsVC: UIViewController {
             cell.title.text = product.title
             if let url = URL(string: product.image) {
                 // Load image asynchronously using an image loading library
+                cell.imageProducts.sd_setImage(with: url)
             }
-            
             cell.ratings.text = " \(product.rating.rate) rate \(product.rating.count) views"
-            
             cell.desc.text = product.description
             cell.price.text = "$\(product.price)"
             return cell

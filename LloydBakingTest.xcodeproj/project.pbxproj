@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC3F7F4F285213E1D5E9836E /* Pods_LloydBakingTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDD4AF7C19A8D5590E1D614 /* Pods_LloydBakingTest.framework */; };
+		94CDFA992D89689500C9A2A9 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 94CDFA982D89689500C9A2A9 /* SDWebImage */; };
+		94CDFA9B2D89689500C9A2A9 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 94CDFA9A2D89689500C9A2A9 /* SDWebImageMapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,13 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2FDD4AF7C19A8D5590E1D614 /* Pods_LloydBakingTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LloydBakingTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F6315850CEF981D58965302 /* Pods-LloydBakingTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LloydBakingTest.release.xcconfig"; path = "Target Support Files/Pods-LloydBakingTest/Pods-LloydBakingTest.release.xcconfig"; sourceTree = "<group>"; };
 		944B59722D6F04C80035C3F7 /* LloydBakingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LloydBakingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		944B59882D6F04CC0035C3F7 /* LloydBakingTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LloydBakingTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		944B59922D6F04CC0035C3F7 /* LloydBakingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LloydBakingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A608572D706636007CE2EA /* LloydBakingTest.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = LloydBakingTest.xctestplan; sourceTree = "<group>"; };
-		EECDCCBDDFBC5C8A9A6F3470 /* Pods-LloydBakingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LloydBakingTest.debug.xcconfig"; path = "Target Support Files/Pods-LloydBakingTest/Pods-LloydBakingTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -73,7 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC3F7F4F285213E1D5E9836E /* Pods_LloydBakingTest.framework in Frameworks */,
+				94CDFA9B2D89689500C9A2A9 /* SDWebImageMapKit in Frameworks */,
+				94CDFA992D89689500C9A2A9 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,23 +93,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		168F72DA08BBFF4017F41689 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EECDCCBDDFBC5C8A9A6F3470 /* Pods-LloydBakingTest.debug.xcconfig */,
-				3F6315850CEF981D58965302 /* Pods-LloydBakingTest.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		64F816D9CDF5E8D6E3983BB2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2FDD4AF7C19A8D5590E1D614 /* Pods_LloydBakingTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		944B59692D6F04C80035C3F7 = {
 			isa = PBXGroup;
 			children = (
@@ -119,8 +101,6 @@
 				944B598B2D6F04CC0035C3F7 /* LloydBakingTestTests */,
 				944B59952D6F04CC0035C3F7 /* LloydBakingTestUITests */,
 				944B59732D6F04C80035C3F7 /* Products */,
-				168F72DA08BBFF4017F41689 /* Pods */,
-				64F816D9CDF5E8D6E3983BB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,7 +121,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 944B599B2D6F04CC0035C3F7 /* Build configuration list for PBXNativeTarget "LloydBakingTest" */;
 			buildPhases = (
-				8A71D13E8B5CF344EECDC73B /* [CP] Check Pods Manifest.lock */,
 				944B596E2D6F04C80035C3F7 /* Sources */,
 				944B596F2D6F04C80035C3F7 /* Frameworks */,
 				944B59702D6F04C80035C3F7 /* Resources */,
@@ -232,6 +211,9 @@
 			);
 			mainGroup = 944B59692D6F04C80035C3F7;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				94CDFA972D89689500C9A2A9 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 944B59732D6F04C80035C3F7 /* Products */;
 			projectDirPath = "";
@@ -267,31 +249,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		8A71D13E8B5CF344EECDC73B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LloydBakingTest-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		944B596E2D6F04C80035C3F7 /* Sources */ = {
@@ -333,7 +290,6 @@
 /* Begin XCBuildConfiguration section */
 		944B599C2D6F04CC0035C3F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EECDCCBDDFBC5C8A9A6F3470 /* Pods-LloydBakingTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -365,7 +321,6 @@
 		};
 		944B599D2D6F04CC0035C3F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F6315850CEF981D58965302 /* Pods-LloydBakingTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -628,6 +583,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		94CDFA972D89689500C9A2A9 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.21.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		94CDFA982D89689500C9A2A9 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94CDFA972D89689500C9A2A9 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		94CDFA9A2D89689500C9A2A9 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94CDFA972D89689500C9A2A9 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 944B596A2D6F04C80035C3F7 /* Project object */;
 }

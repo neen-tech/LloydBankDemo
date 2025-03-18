@@ -6,6 +6,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // Jail Broken code 
+        if let error = UIDevice.current.isJailBroken {
+            debugPrint("Exit the application because it is jailbroken or create a ViewController and show the message", error)
+        }
         // Override point for customization after application launch.
         return true
     }
